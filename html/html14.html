@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>html 웹페이지 타이틀</title>
+        <style>
+            ul {
+                list-style: none;
+            }
+        </style>
+    </head>
+    <body>
+        <form name="test_form" method="post" action="login.php">
+            <label>
+            <ul>
+                <li>
+                    <label for="search">찾기</label>
+                    <input type="search" id="search">
+                </li>
+                <li>
+                    <label for="addr">url주소</label>
+                    <input type="url" id="addr">
+                </li>
+                <li>
+                    <label for="mail">email주소</label>
+                    <input type="email" id="mail">
+                </li>
+                <li>
+                    <label for="phone">전화번호</label>
+                    <input type="tel" id="phone">
+                </li>
+                <li>
+                    <label for="num">숫자</label>
+                    <input type="number" id="num">
+                </li>
+                <h3>라디오 박스 </h3>
+                <label for="r1"> C <input type="radio" name="lang" id="r1"></label>
+                <label for="r2"> python <input type="radio" name="lang" id="r2"></label>
+                <label for="r3"> java <input type="radio" name="lang"id="r3"></label>
+            
+                <h3>체크 박스 </h3>
+                <label for="r4"> C <input type="checkbox" name="lang2" id="r4"></label>
+                <label for="r5"> python <input type="checkbox" name="lang3" id="r5"></label>
+                <label for="r6"> java <input type="checkbox" name="lang4"id="r6"></label>
+                <li>
+                    <input type="submit" value="로그인">
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>
